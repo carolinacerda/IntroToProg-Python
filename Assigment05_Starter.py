@@ -48,7 +48,7 @@ while True:
 
     # Step 3 - Show the current items in the table
     if strChoice.strip() == '1':
-        print("Your Current To Do List Is:")
+        print("Your Current To-Do List Is:")
         for dicRow in lstTable:
             print("  ", dicRow["Task"], "|", dicRow["Priority"])
         print()  # adding a new line for looks
